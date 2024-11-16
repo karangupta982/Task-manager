@@ -129,15 +129,19 @@ const App = () => {
     return (
         <div className=' bg-richblack-800 h-full pt-[5vh] w-screen overflow-x-hidden' onClick={animateCircles}>
 
-            <div ref={circleRefs[0]} className='absolute top-[4vh] bg-richblack-5 w-[80px] h-[80px] rounded-full opacity-35'></div>
+            <div ref={circleRefs[0]} className='absolute top-[-20vh] left-[0vw] bg-richblack-5 w-[80px] h-[80px] rounded-full opacity-35'></div>
+            <div ref={circleRefs[0]} className='absolute top-[-20vh] left-[0vw] bg-richblack-5 w-[80px] h-[80px] rounded-full opacity-35'></div>
+            <div ref={circleRefs[0]} className='absolute top-[-20vh] left-[0vw] bg-richblack-5 w-[80px] h-[80px] rounded-full opacity-35'></div>
+            <div ref={circleRefs[0]} className='absolute top-[-20vh] left-[0vw] bg-richblack-5 w-[80px] h-[80px] rounded-full opacity-35'></div>
+            <div ref={circleRefs[0]} className='absolute top-[-20vh] left-[0vw] bg-richblack-5 w-[80px] h-[80px] rounded-full opacity-35'></div>
 
-            <div ref={circleRefs[1]} className='absolute top-[40vh] bg-richblack-5 w-[100px] h-[100px] rounded-full opacity-30'></div>
+            <div ref={circleRefs[1]} className='absolute top-[-20vh] left-[20vw] bg-richblack-5 w-[100px] h-[100px] rounded-full opacity-30'></div>
 
-           <div ref={circleRefs[3]} className='absolute top-[4vh] bg-richblack-5 w-[80px] h-[80px] rounded-full opacity-35'></div>
+           <div ref={circleRefs[3]} className='absolute top-[-20vh] left-[40vw] bg-richblack-5 w-[80px] h-[80px] rounded-full opacity-35'></div>
 
-            <div ref={circleRefs[4]} className='absolute top-[40vh] bg-richblack-5 w-[100px] h-[100px] rounded-full opacity-30'></div>
+            <div ref={circleRefs[4]} className='absolute top-[-20vh] left-[60vw] bg-richblack-5 w-[100px] h-[100px] rounded-full opacity-30'></div>
             
-            <div ref={circleRefs[2]} className='absolute top-[60vh] bg-richblack-5 w-[120px] h-[120px] rounded-full opacity-40'
+            <div ref={circleRefs[2]} className='absolute top-[-20vh] right-[0vw] bg-richblack-5 w-[120px] h-[120px] rounded-full opacity-40'
             ></div>
 
 
