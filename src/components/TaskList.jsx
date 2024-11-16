@@ -7,7 +7,7 @@ const TaskList = ({ allTasks, searchedTasks, onDeleteTask, onToggleComplete, onS
     return (
         <div className='text-white bg-richblack-800  '>
             {displayTasks.length === 0 ? (
-                <p className="text-center text-white font-bold text-4xl">No tasks are present.</p>
+                <p className="text-center text-white font-bold text-4xl overflow-y-hidden">No tasks are present.</p>
             ) : (
                 <div className='flex gap-[3vw] flex-wrap px-[5vw] justify-evenly mb-[3vh] bg-richblack-800'>    
                     {displayTasks.map(task => (

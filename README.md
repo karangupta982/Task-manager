@@ -21,3 +21,7 @@ To set up and run the Task Manager Application locally, follow these steps:
    cd Task-manager
    npm install
    npm run start
+
+1. **Check the Project Live**:
+   ```bash
+   Live Link: [TaskManager](https://v10tasksmanager.netlify.app/)
